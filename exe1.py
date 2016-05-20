@@ -1,13 +1,11 @@
 counter = 100
 miles = 100.0
 name = "John"
-age = input("Enter age: ")
-a="my age is: "
-b="1"
+grade = input("Enter grade: ")
 
-print counter
-print miles
-print name
-print age
-c = a + str(b)
-print c
+if grade <= 95 and score >= 81:
+	print "A"
+elif grade <=80 and score >=75:
+	print "B"
+else:
+	print "C"
